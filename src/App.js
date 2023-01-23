@@ -51,16 +51,20 @@ const App = () => {
       
       
       :
-      <div id='flex'>
+      <div>
         <h1 id='heading2'>User Data</h1>
         <hr />
+        
+      
+      <div id='flex'>
+        
 
         {
           arr1.map((value, index) => {
             return (
             <>
               
-                <div id='flexbox' key={index}>
+                <div className='flexbox' key={index}>
                   <span>Name: {value.Username}</span>
                   <span> Department: {value.Department}</span>
                   <span> Rating: {value.Rating} </span>
@@ -70,6 +74,7 @@ const App = () => {
             )
           })
         }
+      </div>
       </div>}
       <button id='btn' type="submit">{ shwitch ? <span>Submit</span> : <span>Go Back</span> }</button>
       </form>

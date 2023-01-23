@@ -52,7 +52,7 @@ label{
 #heading2{
     color: darkblue;
 }
-#flexbox{
+.flexbox{
     text-align: center;
     width: 20rem;
     padding: 1em;
